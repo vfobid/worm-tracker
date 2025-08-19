@@ -1,0 +1,6 @@
+opencv-python
+numpy
+torch
+ultralytics  # For YOLOv5/YOLOv8
+matplotlib
+labelImg
