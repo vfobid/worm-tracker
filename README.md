@@ -1,11 +1,11 @@
-# Worm Tracker 🪱
+# Worm Tracker
 
 A Python project for detecting and tracking worms in videos using **YOLOv8** (Ultralytics) or **OpenCV-based classical detection**.  
 The tracker computes the **average worm speed (pixels/second)** from video recordings.
 
 ---
 
-## 📦 Setup
+## Setup
 
 Clone this repository and enter the folder:
 
@@ -22,15 +22,15 @@ Install dependencies:
 
 pip install -r requirements.txt
 
-    How to Use
+
+How to use:
 Place your worm video in the project folder.
 
 Download my trained YOLO model at: https://drive.google.com/file/d/1hlZHYGTG1hvS2VPUwCzBGoZ5hdhaVk42/view?usp=sharing
+
 Open ai_tracker.py and set the path: model = YOLO("path_to_trained_YOLO_model")
 
 Open config.py and set the path and options:
-
-python
 
 VIDEO_PATH = "your_video.mp4"   # path to your video
 USE_AI_DETECTION = True         # True = YOLO, False = classical OpenCV
