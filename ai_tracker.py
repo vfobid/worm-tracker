@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 import cv2
 
-model = YOLO("yolov8n.pt")  # Replace with trained worm model
+model = YOLO("runs/detect/train2/weights/best.pt")  #trained worm model
 
 def detect_worm_ai(frame):
     results = model(frame)
@@ -13,7 +13,3 @@ def detect_worm_ai(frame):
             return (cx, cy), (x1, y1, x2, y2)
     return None, None
 
-# To set up the environment, run the following commands in PowerShell:
-#python -m venv .venv
-#Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-#.\.venv\Scripts\Activate

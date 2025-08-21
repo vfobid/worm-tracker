@@ -1,0 +1,44 @@
+# ------------------------
+# Project-specific ignores
+# ------------------------
+
+# Ignore all annotation labels
+worm_dataset/labels/
+
+# Ignore YOLO weights and checkpoints
+*.pt
+*.onnx
+*.engine
+*.torchscript
+*.pkl
+
+# Ignore dataset cache files
+*.cache
+*.log
+
+# ------------------------
+# Python / venv ignores
+# ------------------------
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# ------------------------
+# IDE / OS specific
+# ------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,7 +1,7 @@
 import cv2
 from config import VIDEO_PATH, USE_AI_DETECTION, FRAME_SKIP
 from classical_tracker import detect_worm_cv
-from ai_detector import detect_worm_ai
+from ai_tracker import detect_worm_ai
 from utils import euclidean, draw_tracking
 
 positions = []
