@@ -26,6 +26,7 @@ pip install -r requirements.txt
 Place your worm video in the project folder.
 
 Download my trained YOLO model at: https://drive.google.com/file/d/1hlZHYGTG1hvS2VPUwCzBGoZ5hdhaVk42/view?usp=sharing
+
 Open ai_tracker.py and set the path: model = YOLO("path_to_trained_YOLO_model")
 
 Open config.py and set the path and options:
